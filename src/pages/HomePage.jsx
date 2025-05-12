@@ -1,4 +1,6 @@
 import ThreeColsLayout from "../layouts/ThreeColsLayout.jsx";
+import CustomButton from "../components/customButton/CustomButton.jsx";
+import { ArrowUp, ArrowDown } from "lucide-react";
 
 const HomePage = () => {
     return (
