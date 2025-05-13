@@ -1,0 +1,13 @@
+.premium-block {
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+}
+
+.premium-block small {
+    line-height: 1rem;
+}
+
+.premium-icon {
+    fill: #FFFF00FF;
+    stroke: #FFFF00FF;
+}
