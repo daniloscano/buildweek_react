@@ -1,0 +1,4 @@
+.news-container {
+  border-radius: 5px;
+  background-color: var(--background-secondary);
+}
