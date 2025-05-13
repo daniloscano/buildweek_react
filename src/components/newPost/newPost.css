@@ -1,0 +1,52 @@
+.new-post-container {
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+}
+
+.avatar {
+    background-color: rgba(255, 164, 57, 0.68);
+    color: var(--text-primary);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.create-post-input {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: solid 1px var(--text-primary);
+}
+
+.create-post-input:hover,
+.create-post-input:focus {
+    background-color: rgb(61, 68, 76);
+}
+
+.create-post-input::placeholder {
+    color: var(--text-primary);
+}
+
+.type-btn-container button {
+    border: none;
+}
+
+.type-btn-container button:hover {
+    background-color: var(--background-secondary);
+}
+
+.type-btn-container .custom-button {
+    border-radius: 10px !important;
+}
+
+.lucide-play {
+    color: green;
+}
+
+.lucide-image {
+    color: var(--main-blue);
+}
+
+.lucide-newspaper {
+    color: #F69B81;
+}

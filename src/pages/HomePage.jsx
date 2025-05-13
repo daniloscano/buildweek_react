@@ -1,6 +1,5 @@
 import ThreeColsLayout from "../layouts/ThreeColsLayout.jsx";
-import CustomButton from "../components/customButton/CustomButton.jsx";
-import { ArrowUp, ArrowDown } from "lucide-react";
+import NewPost from "../components/newPost/NewPost.jsx";
 
 const HomePage = () => {
     return (
@@ -9,7 +8,7 @@ const HomePage = () => {
                 Colonna da 3
             </div>
             <div className="col col-12 col-md-6 col-lg-5">
-                Colonna da 5
+                <NewPost />
             </div>
             <div className="col col-12 col-md-6 col-lg-4">
                 Colonna da 4
