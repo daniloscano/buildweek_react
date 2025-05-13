@@ -2,7 +2,7 @@
 
 :root {
     --background-primary: #000000;
-    --background-secondary: #1B1F23;
+    --background-secondary: rgba(27, 31, 35, 0.45);
     --text-primary: #E6E6E6;
     --main-blue: #71B7FB;
 }
