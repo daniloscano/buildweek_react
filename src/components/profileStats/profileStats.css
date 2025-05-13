@@ -1,0 +1,8 @@
+.profile-stats-container {
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+}
+
+.profile-stats {
+    color: var(--main-blue);
+}

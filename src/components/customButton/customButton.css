@@ -1,0 +1,24 @@
+.custom-button {
+    font-size: 16px;
+    background-color: transparent;
+    color: var(--text-primary);
+    padding: 6px 16px;
+    border-radius: 1.6rem;
+    border: solid 1px var(--text-primary);
+}
+
+.custom-button.filled {
+    background-color: var(--main-blue);
+    color: var(--background-primary);
+    border: solid 1px var(--main-blue);
+}
+
+.custom-button.outlined {
+    color: var(--main-blue);
+    border: solid 1px var(--main-blue);
+}
+
+.custom-button svg {
+    width: 18px;
+    height: 18px;
+}
