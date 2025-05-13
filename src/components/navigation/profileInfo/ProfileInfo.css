@@ -1,0 +1,15 @@
+.card-img-custom {
+  width: 100px !important;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.img-top-bg {
+  background: url("https://www.tecnicadellascuola.it/wp-content/uploads/2019/12/Coding.jpg");
+  background-size: contain;
+}
+
+.custom-card-profile {
+  background-color: var(--background-secondary);
+}

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import "./ProfileInfo.css";
 
 const ProfileInfo = () => {
   const [myProfile, setMyProfile] = useState([]);
-  console.log(myProfile);
 
   const getMyProfile = async () => {
     try {
@@ -29,15 +29,19 @@ const ProfileInfo = () => {
 
   return (
     <>
-      <Card>
-        <Card.Img variant="top" src="nisnisn" />
+      <Card className="mt-3 text-white custom-card-profile ">
+        <div className="img-top-bg">
+          <Card.Img className="card-img-custom" src={myProfile.image} />
+        </div>
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>
+            {myProfile.name} {myProfile.surname}
+          </Card.Title>
+          <Card.Text>{myProfile.email}</Card.Text>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Ciao sono {myProfile.name} e sono uno studente della migliore classe
+            di EPICODE!!!
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
     </>
