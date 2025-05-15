@@ -8,13 +8,15 @@ const HomePage = () => {
     return (
         <ThreeColsLayout>
             <div className="col col-12 col-md-6 col-lg-3">
-                <ProfileInfo />
-                <UsefullProfileLinkComponent />
+                <ProfileInfo/>
+                <UsefullProfileLinkComponent/>
             </div>
             <div className="col col-12 col-md-6 col-lg-5">Colonna da 5</div>
             <div className="col col-12 col-md-6 col-lg-4">
-                <NewsContainer />
-                <Opportunity />
+                <div className="d-flex flex-column gap-3">
+                    <NewsContainer/>
+                    <Opportunity/>
+                </div>
             </div>
         </ThreeColsLayout>
     );
