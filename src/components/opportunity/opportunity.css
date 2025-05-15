@@ -1,0 +1,31 @@
+.opportunity-container {
+    background-color: var(--background-secondary);
+    border: none;
+    overflow: hidden;
+}
+
+.avatar-container {
+    transform: translateY(-30px);
+}
+
+.avatar-image-circle {
+    width: 90px;
+    aspect-ratio: 1 / 1;
+    border: solid 4px var(--background-secondary);
+    border-radius: 50%;
+}
+
+.avatar-image-squared {
+    width: 90px;
+    aspect-ratio: 1 / 1;
+    border: solid 4px var(--background-secondary);
+    border-radius: 6%;
+}
+
+.opportunity-title {
+    color: var(--text-primary);
+}
+
+.opportunity-subtitle {
+    color: #959595;
+}
