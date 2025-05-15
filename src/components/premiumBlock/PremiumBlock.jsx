@@ -1,5 +1,5 @@
 import "./premiumBlock.css";
-import { Star } from "lucide-react";
+import TryPremium from "../tryPremium/TryPremium.jsx";
 
 const PremiumBlock = () => {
     return (
@@ -7,12 +7,7 @@ const PremiumBlock = () => {
             <small className="text-white-50 mb-1">
                 Grow your career or business with Premium
             </small>
-            <h6 className="mb-0">
-                <span>
-                    <Star size={18} className="premium-icon me-2" />
-                </span>
-                Try Premium for €0
-            </h6>
+            <TryPremium iconSize={18} iconClass="me-2" />
         </div>
     );
 };
