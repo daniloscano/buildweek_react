@@ -6,7 +6,7 @@ import { BadgeInfo } from "lucide-react";
 const NewsContainer = () => {
   return (
     <>
-      <div className="mt-3 text-white p-3 news-container">
+      <div className=" text-white p-3 news-container">
         <div className="d-flex justify-content-between">
           <h3>LinkedIn Notizie</h3>
           <BadgeInfo />

@@ -6,41 +6,41 @@ const NewsList = () => {
   return (
     <>
       <div className="d-flex flex-column">
-        <h5 className="text-truncate">
+        <h6 className="text-truncate">
           Inzio carriera: una bussola per cercare...
-        </h5>
+        </h6>
         <div className="d-flex">
           <p>5 giorni fa</p>
           <Dot />
           <p className="">561 lettori</p>
         </div>
-        <h5 className="text-truncate">Per superare il problema dei neet</h5>
+        <h6 className="text-truncate">Per superare il problema dei neet</h6>
         <div className="d-flex">
           <p>3 giorni fa</p>
           <Dot />
           <p className="">310 lettori</p>
         </div>
-        <h5 className="text-truncate">Unicredit collabora con Google Cloud</h5>
+        <h6 className="text-truncate">Unicredit collabora con Google Cloud</h6>
         <div className="d-flex">
           <p>2 giorni fa</p>
           <Dot />
           <p className="">346 lettori</p>
         </div>
-        <h5 className="text-truncate">Disparita di genere oltre la pensione</h5>
+        <h6 className="text-truncate">Disparita di genere oltre la pensione</h6>
         <div className="d-flex">
           <p>5 giorni fa</p>
           <Dot />
           <p className="">561 lettori</p>
         </div>
-        <h5 className="text-truncate">
+        <h6 className="text-truncate">
           La settimana degli internazionali di...
-        </h5>
+        </h6>
         <div className="d-flex">
           <p>5 giorni fa</p>
           <Dot />
           <p className="">561 lettori</p>
         </div>
-        <h5>Il rompicapo di oggi</h5>
+        <h6>Il rompicapo di oggi</h6>
         <div className="d-flex  gap-3 align-items-center">
           <div className="d-flex ">
             <img
