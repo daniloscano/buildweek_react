@@ -4,6 +4,7 @@ import SearchBar from "./partials/SearchBar.jsx";
 import NavigationMenu from "./partials/NavigationMenu.jsx";
 import NavigationIcons from "./partials/NavigationIcons.jsx";
 import NavigationProfile from "./partials/NavigationProfile.jsx";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
     return (
@@ -18,7 +19,9 @@ const Navigation = () => {
                     </div>
                     <div className="col-9 col-xl-8 d-flex align-items-center justify-content-around gap-4">
                         <NavigationIcons />
-                        <NavigationProfile />
+                        <Link to="/profile/me" className="text-decoration-none">
+                            <NavigationProfile />
+                        </Link>
                         <NavigationMenu />
                     </div>
                 </div>

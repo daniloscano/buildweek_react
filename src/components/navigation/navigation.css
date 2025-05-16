@@ -9,12 +9,6 @@
     background: var(--text-primary);
 }
 
-@media (max-width: 1024px) {
-    .nav-search-bar span {
-        background-color: transparent !important;
-    }
-}
-
 .nav-search-bar span,
 .nav-search-bar input,
 .nav-search-bar input:focus,
@@ -48,4 +42,16 @@
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.search-bar-btn {
+    border: none;
+    background-color: #38434F;
+    color: var(--text-primary);
+}
+
+@media (max-width: 1024px) {
+    .search-bar-btn {
+        background-color: transparent !important;
+    }
 }
