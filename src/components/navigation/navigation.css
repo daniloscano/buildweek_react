@@ -1,0 +1,57 @@
+.linkedin-navbar {
+    color: var(--text-primary);
+    border-bottom: 2px solid #38434F;
+    background-color: var(--background-secondary);
+}
+
+.navbar-logo {
+    color: #000;
+    background: var(--text-primary);
+}
+
+.nav-search-bar span,
+.nav-search-bar input,
+.nav-search-bar input:focus,
+.nav-search-bar input::placeholder {
+    border: none;
+    box-shadow: none;
+    background-color: #38434F;
+    color: var(--text-primary);
+}
+
+.nav-icons-list,
+.nav-icons-list a {
+    color: #BABBBD;
+    text-decoration: none;
+}
+
+.nav-icons-list:hover,
+.nav-icons-list a:hover {
+    cursor: pointer;
+    color: var(--text-primary);
+}
+
+@media (min-width: 768px) {
+    .nav-right-side-icons {
+        border-left: 2px solid #38434F;
+    }
+}
+
+.nav-profile-photo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.search-bar-btn {
+    border: none;
+    background-color: #38434F;
+    color: var(--text-primary);
+}
+
+@media (max-width: 1024px) {
+    .search-bar-btn {
+        background-color: transparent !important;
+    }
+}
