@@ -5,7 +5,7 @@ import CustomButton from "../customButton/CustomButton.jsx";
 const Suggested = () => {
     return (
         <div className="suggested-container rounded p-3">
-            <h5 className="mb-0">Consigliato per te</h5>
+            <h4 className="mb-0">Consigliato per te</h4>
             <small className="text-white-50 d-flex">
                 <span>
                     <Eye size={20} className="pb-1" />

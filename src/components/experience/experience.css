@@ -1,0 +1,16 @@
+.experience-container {
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+}
+
+.add-exp-btn {
+    border: none;
+    color: var(--text-primary);
+    background-color: transparent;
+
+    transition: all 150ms linear;
+}
+
+.add-exp-btn:hover {
+    color: var(--main-blue);
+}

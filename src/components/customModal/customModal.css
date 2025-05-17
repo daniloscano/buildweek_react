@@ -1,0 +1,10 @@
+.custom-modal-header,
+.custom-modal-body {
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+}
+
+.custom-modal .btn-close {
+    border-radius: 50%;
+    background-color: var(--text-primary);
+}
