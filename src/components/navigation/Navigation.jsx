@@ -12,9 +12,9 @@ const Navigation = () => {
             <div className="container">
                 <div className="row d-flex align-items-center">
                     <div className="col-3 col-xl-4 d-flex gap-2 py-2">
-                        <a href="#" className="navbar-logo p-2 rounded-1">
+                        <Link to="/" className="navbar-logo p-2 rounded-1">
                             <Linkedin />
-                        </a>
+                        </Link>
                         <SearchBar />
                     </div>
                     <div className="col-9 col-xl-8 d-flex align-items-center justify-content-around gap-4">
