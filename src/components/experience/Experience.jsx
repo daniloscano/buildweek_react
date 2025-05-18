@@ -13,9 +13,9 @@ const Experience = () => {
     const {
         error,
         isLoading,
+        postExperience,
         data: experiences,
         getAllExperiences,
-        postExperience,
     } = useContext(ExperienceContext);
 
     const handleSubmit = (e) => {
@@ -35,12 +35,20 @@ const Experience = () => {
                     <Plus size={32} />
                 </button>
             </div>
-            <CustomModal show={show} setShow={setShow}>
+            <CustomModal
+                show={show}
+                setShow={setShow}
+                text="Aggiungi una tua esperienza lavorativa"
+            >
                 <ExperienceForm onSubmit={handleSubmit} />
             </CustomModal>
-            {isLoading && <h1>Loading...</h1>}
-            {!isLoading && error && <h1>Errore</h1>}
-            {experiences &&
+            {isLoading && <h5>Loading...</h5>}
+            {!isLoading && error && (
+                <h5>[Errore] Qualcosa è andato storto, riprova più tardi.</h5>
+            )}
+            {!isLoading &&
+                !error &&
+                experiences &&
                 experiences.map((experience, i) => (
                     <ExperiencesList key={`exp-${i}`} experience={experience} />
                 ))}

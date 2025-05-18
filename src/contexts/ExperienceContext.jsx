@@ -33,7 +33,7 @@ export const ExperienceProvider = ({ children }) => {
                 {
                     headers: {
                         "Content-type": "application/json",
-                        Authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,
+                        Authorization: `Bearer ${import.meta.env.VITE_STRIVE_TOKEN}`,
                     },
                 },
             );
@@ -57,7 +57,7 @@ export const ExperienceProvider = ({ children }) => {
                     body: JSON.stringify(payload),
                     headers: {
                         "Content-type": "application/json",
-                        Authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,
+                        Authorization: `Bearer ${import.meta.env.VITE_STRIVE_TOKEN}`,
                     },
                 },
             );

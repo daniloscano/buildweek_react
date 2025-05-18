@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const ProfileContext = createContext();
 
@@ -16,7 +16,7 @@ export const ProfileProvider = ({ children }) => {
                 {
                     headers: {
                         "Content-type": "application/json",
-                        Authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,
+                        Authorization: `Bearer ${import.meta.env.VITE_STRIVE_TOKEN}`,
                     },
                 },
             );

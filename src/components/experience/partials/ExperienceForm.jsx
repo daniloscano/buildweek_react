@@ -15,6 +15,7 @@ const ExperienceForm = ({ onSubmit }) => {
                     className="form-control"
                     onChange={handleExperience}
                     placeholder="Tipo di impiego"
+                    required
                 />
             </div>
             <div>
@@ -25,6 +26,7 @@ const ExperienceForm = ({ onSubmit }) => {
                     className="form-control"
                     onChange={handleExperience}
                     placeholder="Azienda o organizzazione"
+                    required
                 />
             </div>
             <div className="d-flex gap-3">
@@ -36,6 +38,7 @@ const ExperienceForm = ({ onSubmit }) => {
                         value={payload.startDate}
                         className="form-control"
                         onChange={handleExperience}
+                        required
                     />
                 </div>
                 <div>
@@ -59,6 +62,7 @@ const ExperienceForm = ({ onSubmit }) => {
                     placeholder="Descrizione"
                     value={payload.description}
                     onChange={handleExperience}
+                    required
                 ></textarea>
             </div>
             <div>
@@ -69,6 +73,7 @@ const ExperienceForm = ({ onSubmit }) => {
                     placeholder="Località"
                     className="form-control"
                     onChange={handleExperience}
+                    required
                 ></input>
             </div>
             <CustomButton

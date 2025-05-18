@@ -1,7 +1,7 @@
 import "./customModal.css";
 import { Modal } from "react-bootstrap";
 
-const CustomModal = ({ children, show, setShow }) => {
+const CustomModal = ({ children, text, show, setShow }) => {
     return (
         <Modal
             show={show}
@@ -12,7 +12,7 @@ const CustomModal = ({ children, show, setShow }) => {
         >
             <Modal.Header className="custom-modal-header" closeButton>
                 <Modal.Title id="example-custom-modal-styling-title">
-                    Aggiungi una tua esperienza lavorativa
+                    {text}
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body className="custom-modal-body">{children}</Modal.Body>
