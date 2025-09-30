@@ -1,0 +1,39 @@
+.might-like-container {
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+}
+
+.might-like-title {
+    width: 180px;
+    line-height: 1.5rem;
+}
+
+.group-container:nth-of-type(1) {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.64);
+}
+
+.show-all-btn {
+    cursor: pointer;
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.64);
+
+    transition: all 150ms linear;
+}
+
+.show-all-btn a {
+    color: var(--text-primary);
+}
+
+.show-all-btn:hover {
+    background-color: rgba(56, 67, 79, 0.32);
+}
+
+.subscribe-btn {
+    transition: all 150ms linear;
+}
+
+
+.subscribe-btn:hover {
+    outline: 1px solid var(--text-primary);
+    background-color: rgba(56, 67, 79, 0.32);
+}
