@@ -15,7 +15,10 @@ const NavigationMenu = () => {
                 </small>
             </div>
             <div className="d-none d-lg-block">
-                <TryPremium titleClass="nav-icons-list text-nowrap d-flex flex-column align-items-center small" />
+                <TryPremium
+                    text="Prova Premium per 0 EUR"
+                    titleClass="nav-icons-list text-nowrap d-flex flex-column align-items-center small"
+                />
             </div>
         </div>
     );

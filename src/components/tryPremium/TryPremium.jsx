@@ -1,12 +1,12 @@
 import { Star } from "lucide-react";
 
-const TryPremium = ({ titleClass, iconSize, iconClass }) => {
+const TryPremium = ({ titleClass, iconSize, iconClass, text }) => {
     return (
         <h6 className={`mb-0 ${titleClass}`}>
             <span>
                 <Star size={iconSize} className={`premium-icon ${iconClass}`} />
             </span>
-            Try Premium for €0
+            {text}
         </h6>
     );
 };

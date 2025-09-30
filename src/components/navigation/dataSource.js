@@ -14,22 +14,22 @@ export const navbarIconLinks = [
     },
     {
         id: "navbar-icon-link-2",
-        text: "MyNetwork",
+        text: "Rete",
         icon: Users,
     },
     {
         id: "navbar-icon-link-3",
-        text: "Jobs",
+        text: "Lavoro",
         icon: BriefcaseBusiness,
     },
     {
         id: "navbar-icon-link-4",
-        text: "Messaging",
+        text: "Messaggistica",
         icon: MessageCircleMore,
     },
     {
         id: "navbar-icon-link-5",
-        text: "Notifications",
+        text: "Notifiche",
         icon: Bell,
     },
 ];
